@@ -109,7 +109,7 @@ router.get('/', function (req, res) {
 /**
  * UPDATE POST
  */
- router.put('/update/:id', [
+ router.patch('/update/:id', [
 
     //validation
     body('title').notEmpty(),
